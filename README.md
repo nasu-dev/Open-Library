@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+## OpenSearch Library
+#### デプロイ先URL：[OpenSearch Library](https://opensearch-library.vercel.app)
+<a id="project-summary"></a>
+## 📝 プロジェクト概要
+#### アプリケーションについて
+<p>ISBN（国際規格コード）を使って本を検索できるアプリです。<br/>
+検索条件に合致する本が見つかると、その本に関する情報が画面に動的に表示されます。</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### 作成理由
+JavaScript・Reactでの非同期処理と、APIからfetchしたデータをブラウザ上に表示させることの練習用に作成しました。<br/>
+OpenLibraryAPIを用い、フロントはReact、Tailwind CSSで実装しています。
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+### 検索画面
+<img width="1041" alt="スクリーンショット 2023-11-04 0 29 02" src="https://github.com/nasu-dev/Open-Library/assets/114811498/f4f5bfad-222e-49aa-9e92-8cc75a47f06a">
 
-### `npm start`
+### 検索結果画面
+![スクリーンショット 2023-11-04 0 29 58](https://github.com/nasu-dev/Open-Library/assets/114811498/3aa9d67a-16a8-46e2-b177-f98c81f45f29)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<a id="stack"></a>
+## 💻 技術スタック
 
-### `npm test`
+- [React](https://reactjs.org/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Tailwind CSS](https://tailwindcss.com/)
 
-### `npm run build`
+- [JavaScript](https://developer.mozilla.org/ja/docs/Web/JavaScript)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Open library API](https://openlibrary.org/developers/api)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
