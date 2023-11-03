@@ -7,7 +7,7 @@
 検索条件に合致する本が見つかると、その本に関する情報が画面に動的に表示されます。</p>
 
 #### 作成理由
-JavaScript・Reactでの非同期処理と、APIからfetchしたデータをブラウザ上に表示させることの練習用に作成しました。<br/>
+JavaScript・Reactでの非同期処理と、APIからfetchしたデータをブラウザ上に表示させる練習で作成しました。<br/>
 OpenLibraryAPIを用い、フロントはReact、Tailwind CSSで実装しています。
 
 ---
